@@ -1,0 +1,23 @@
+.gallery-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .gallery-item:hover {
+  cursor: grab;
+} */
+
+.image {
+  max-width: 100%;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+.image:hover {
+  transform: scale(1.05);
+  cursor: zoom-in;
+}
+
+a {
+  overflow: hidden;
+}

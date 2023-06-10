@@ -1,16 +1,17 @@
+import { ToastContainer } from 'react-toastify';
+import { ImageFinder } from './ImageFinder/ImageFinder';
+import 'react-toastify/dist/ReactToastify.css';
+
 export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
         fontSize: 40,
-        color: '#010101'
+        color: '#010101',
       }}
     >
-      React homework template
+      <ImageFinder />
+      <ToastContainer autoClose={1000} />
     </div>
   );
 };
