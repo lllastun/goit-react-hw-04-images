@@ -21,7 +21,7 @@ function Modal({ onClose, children }) {
     return () => {
       document.removeEventListener('keydown', handleKeyDown);
     };
-  }, []);
+  });
 
   return (
     <ModalWrapper onClick={onBackdropClick}>
