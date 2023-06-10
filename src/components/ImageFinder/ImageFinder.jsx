@@ -33,6 +33,7 @@ export function ImageFinder() {
     } else {
       setInitialized(true);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [query, page, initialized]);
 
   useEffect(() => {
