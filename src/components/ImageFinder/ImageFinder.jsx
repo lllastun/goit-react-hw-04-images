@@ -15,7 +15,7 @@ export function ImageFinder() {
     fulfilled: 'fulfilled',
     rejected: 'rejected',
   };
-
+  //
   const [initialized, setInitialized] = useState(false);
   const [images, setImages] = useState([]);
   const [status, setStatus] = useState('idle');
